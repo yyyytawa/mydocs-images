@@ -1,2 +1,2 @@
-# myblog-images
-博客图片存储
+# mydocs-images
+文档站图片存储
