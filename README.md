@@ -1,6 +1,6 @@
 # mydocs-images  
 
-![测试](https://img.yyyyt.top/avatar/avatar=100x100)  
+![测试](https://img.yyyyt.top/avatar/avatar =100x100)  
 
 ZH:  
 文档站图片存储  
