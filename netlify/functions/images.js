@@ -11,6 +11,7 @@ export default async (request, context) => {
           headers: {
             "Content-Type": localResponse.type, // 设置 Content-Type
             "Cache-Control": "public, max-age=31536000", // 缓存一年
+            "CDN-Cache-Control": "public, max-age=31536000",
           },
         });
       }
@@ -37,6 +38,7 @@ export default async (request, context) => {
         headers: {
           "Content-Type": originResponse.headers.get("Content-Type"), // 传递 Content-Type
           "Cache-Control": "public, max-age=31536000", // 缓存一年
+          "CDN-Cache-Control": "public, max-age=31536000",
         },
       });
     } catch (error) {
